@@ -15,6 +15,16 @@
     パスワード変更
     SET PASSWORD = 'toor'
 
+    php.ini
+    extension=mysqli
+    extension=sqlite3
+    extension_dir = "ext"
+
     MySQLの使い方
     https://www.dbonline.jp/mysql/
+
+    %HOMEPATH%\\Desktop\php8\php -S 192.168.11.110:80 -t %HOMEPATH%\Desktop\eiloto
  -->
+<?php
+phpinfo();
+?>
