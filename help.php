@@ -6,6 +6,7 @@
     mysqld --initialize
     サービス登録
     mysqld --install MYSQL80
+    mysqld --remove MYSQL80
     サービス起動
     NET START MYSQL80
 
