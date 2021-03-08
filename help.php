@@ -4,6 +4,9 @@
 
     初期化
     mysqld --initialize
+    or
+    mysqld -I
+
     サービス登録
     mysqld --install MYSQL80
     mysqld --remove MYSQL80
